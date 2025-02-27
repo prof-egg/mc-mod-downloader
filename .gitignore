@@ -1,0 +1,8 @@
+bin
+obj
+LICENSE
+makefile
+mcmoddownloader.csproj
+mcmoddownloader.sln
+mods.tml
+note.md
