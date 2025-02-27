@@ -13,9 +13,13 @@ the file has 4 main tokens for assigning to those internal variables:
 
 To assign to internal variables
 - Use a `=` for recognized singular string variables. 
-```version=1.21.1;```
+```
+version=1.21.1;
+```
 - Use a `:` for recognized string list variables. Note that the `,` seperates the values in a list assignment.
-```slugs:fabric-api,e4mc;```
+```
+slugs:fabric-api,e4mc;
+```
 
 All assignments must end in a `;` so there parser knows where to locate the value for the internal variable.
 For a list of internal variables that you can assign values to, see [docs/variables.md#tml-variables](variables.md#tml-variables).
@@ -23,7 +27,9 @@ For a list of internal variables that you can assign values to, see [docs/variab
 ### Whitespace
 Since white space is removed in the parser by default, there is a 5th token for maintaing whitespace:
 - The quotation mark: `"`.
-```downloadDir="D:\path to folder\"``` 
+```
+downloadDir="D:\path to folder\"
+``` 
 If the quotation marks were not there the in the example above, the value would be read as `D:\pathtofolder\` instead of the correct `D:\path to folder\`.
 
 ### Comments
