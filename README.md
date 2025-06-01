@@ -1,8 +1,8 @@
 ## About
 A client that downloads minecraft mods from modrinth through a custom .tml config file specification.
 
-## Notice
-_It is currently hardcoded to only download fabric mods._
+> **Notice:**
+> _It is currently hardcoded to only download fabric mods._
 
 ## How To Use
 ### Overview
