@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New internal variable "clear" for optionally specifying whether or not the client should clear all .jar files in the download dir before commencing.
 - New internal variable "tmlPath" for optionally specifying the path of a .tml file.
 - Able to automatically resolve mod dependencies.
-  - New internal variable "rewriteTmlOnDependencyResolution" for optionally specifying if you want the client to spit out a new .tml file that includes the dependencies that it found in the original .tml file.
+  - New internal variable "updateTmlOnDependencyResolution" for optionally specifying if you want the client to spit out a new .tml file that includes the dependencies that it found in the original .tml file.
 
 
 ## [1.0.0] - 2025-02-27
